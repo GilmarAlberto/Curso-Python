@@ -7,10 +7,12 @@ B) quantos homens foram cadastrados.
 C) quantas mulheres tem menos de 20 anos. 
 '''
 
-idade = qtd18 = qtdh = qtdm = 0
-sexo = continua = " "
 
 while True:
+
+    idade = qtd18 = qtdh = qtdm = 0
+    sexo = continua = " "
+
     print('-'*30)
     print('CADASTRE UMA PESSOA'.center(30))
     print('-'*30)
@@ -27,7 +29,7 @@ while True:
     if sexo == 'F' and idade < 20:
         qtdm += 1
 
-    while continua not in 'SN'
+    while continua not in 'SN':
         continua = input('Quer continuar [S/N]').strip().upper()[0]
 
     if continua == 'N':
