@@ -7,8 +7,6 @@ ano_corrente = datetime.now().year
 
 cadastro = {}
 
-
-
 cadastro['nome'] = input('Nome: ')
 nasc = int(input('Ano de Nascimento: '))
 cadastro['idade'] = ano_corrente - nasc
