@@ -19,5 +19,5 @@ valor = dobro(valor)
 print(f"O dobro do valor é R$ {valor}")
 
 valor = metade(valor)
-print(f"A metade do valor é {valor}")
+print(f"A metade do valor é R$ {valor}")
 
